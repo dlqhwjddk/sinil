@@ -1,0 +1,523 @@
+@import url('common.css');
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);/*나눔스퀘어 font-family: 'NanumSquare', sans-serif;*/
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic|Noto+Sans+KR&display=swap');/*Noto,나눔고딕
+font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Nanum Gothic', sans-serif;*/
+html{
+    font-size: 16px;
+}
+body{
+    position: relative;
+}
+
+.top_wrap{
+/*    min-width: 1400px;*/
+}
+/*---------------header--------------*/
+
+header{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 12.64px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    
+}
+header > a{}
+header > a img{
+    width: 100%;
+}
+header nav{
+    width: 60%;
+}
+header nav ul{
+    display: flex;
+}
+header nav ul li{
+    width: 750px;
+    text-align: center;
+    position: relative;
+}
+/*
+header nav ul li:before{
+    content: '|';
+    color: #ddd;
+    padding-right: 36px;
+    display: inline-block;
+    font-size: 0.8em;
+    line-height:2.4;
+    vertical-align: top;
+}
+header nav ul li:first-of-type:before{
+    content: '';
+}
+*/
+header nav ul li >a{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'NanumSquare', sans-serif;
+}
+
+
+header nav ul li div{
+    width: 100%;
+    position: absolute;
+    left: 0; top: 4vh;
+    z-index: 10;
+    display: none;
+}
+header nav ul li div.active{
+    display: block;
+}
+
+
+header nav ul li div a{
+    margin-top: 9.5px;
+    padding: 10px;
+    display: block;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 17px;
+}
+header nav ul li div a:hover{
+    font-weight: bold;
+}
+/*header nav ul li div a:after{
+    content: '';
+    width: 0; height: 2px;
+    background: #044ea7;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2px;
+    opacity: 0;
+    transition: .5s;
+}
+header nav ul li div a:hover:after{
+    opacity: 1;
+    width: 80px;
+}*/
+header .language{}
+header .language a{
+    font-size: 0.9em;
+}
+.white{
+    width: 100%; height: 300px;
+    position: absolute;
+    left: 0; top:0;
+    background: rgba(250,250,250,0.9);
+    display: none;
+}
+/*
+header:hover nav ul li div{
+    display: block;
+}
+header:hover ~ .white{
+    display: block;
+}
+*/
+
+
+@media (max-width:1920px){
+    
+}
+
+@media (max-width:768px){
+   
+}
+
+@media (max-width:480px){
+   
+}
+
+
+/*-------------content----------------*/
+
+
+/*visual*/
+.visual{
+    width: 100%;
+}
+.visual .banner{
+    width: 100%;
+    height: 59.1vh;
+    position: relative;
+    left: 0; top: 0;
+    z-index: -1;
+}
+.visual .banner li{
+    position: absolute;
+    left: 0; top: 0;
+}
+.visual .banner li img{
+    width: 100%;
+    height: 100%;
+}
+.visual .banner li img:first-of-type{}
+
+.visual .txt_box{
+    position: absolute;
+    left: 18.5%; top: 5%;
+    white-space: pre-line;
+}
+.visual .txt_box span{
+    font-size: 3rem;
+    color: #fff;
+    font-family: 'NanumSquare', sans-serif;
+}
+.visual .txt_box strong{
+    font-size: 5rem;
+    color: #fff;
+    font-family: 'NanumSquare', sans-serif;
+}
+.visual .txt_box p{
+    font-size: 1.3rem;
+    color: #efefef;
+    font-family: 'NanumSquare', sans-serif;
+}
+
+/*intro*/
+
+.intro{
+    width: 100%;
+    padding: 4vw 0;
+}
+.intro .head{
+    text-align: center;
+    white-space: pre-line;
+}
+.intro .head strong{
+    font-size: 45px;
+    margin-bottom: 15px;
+    font-family: 'NanumSquare', sans-serif;
+}
+/*.intro .head strong span{
+    color: #044ea7;
+    font-size: 45px;
+    font-weight: bolder;
+    font-family: 'NanumSquare', sans-serif;
+}
+.intro .head >span{
+    font-size: 18px;
+    font-family: 'NanumSquare', sans-serif;
+    margin-bottom: 40px;
+}*/
+
+.intro .container{
+    width: 73%;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+.intro .container div{
+    width: 300px;
+/*
+    position: absolute;
+    left: 50px; top: -80px;
+*/
+    text-align: center;
+}
+/*
+.intro .container div:nth-of-type(1){}
+.intro .container div:nth-of-type(2){
+    left: 557px;
+}
+.intro .container div:nth-of-type(3){
+    left: 1040px;
+}
+*/
+.intro .container div img{
+    width: 100px;
+}
+.intro .container div strong{
+    display: block;
+    font-size: 19px;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    font-family: 'NanumSquare', sans-serif;
+    color: #044ea7;
+}
+.intro .container div span{
+    font-size: 17px;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: #333;
+}
+
+/*product*/
+
+.product{
+    width: 100%;
+    background: #ddd;
+    padding: 4vw 0 2vw 0;
+}
+
+.product .head{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+.product .head strong{
+    font-size: 45px;
+    color: #fff;
+    margin-bottom:10px;
+    font-family: 'NanumSquare', sans-serif;
+}
+
+.product .head >span{
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+.product .overflow{
+    overflow: hidden;
+    width: 1200px;
+    height: 440px;
+    margin: 30px auto;
+    position: relative;
+}
+.product .overflow .drag{
+    position: absolute;
+    left: 0; top: 0;
+    display: flex;
+    /*transition: 35s;*/
+/*    margin-left: -180px; */
+}
+.product .overflow .drag figure{
+    width: 270px; height: 400px;
+    background: #fff;
+    margin-right: 100px;
+/*    box-shadow: 3px 3px 3px #044ea7;*/
+}
+.product .overflow .drag figure:hover figcaption{
+    background: #044ea7;
+}
+.product .overflow .drag figure:hover figcaption strong,
+.product .overflow .drag figure:hover figcaption small{
+    color: #fff;
+    
+}
+.product .overflow .drag figure:hover figcaption div a{
+    opacity: 1;
+}
+.product .overflow .drag figure p{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.product .overflow .drag figure p:nth-of-type(1){
+    padding: 10px 20px 40px 20px;
+    
+}
+.product .overflow .drag figure p:nth-of-type(2){
+    text-align: center;
+}
+.product .overflow .drag figure p:nth-of-type(2) img{
+   
+    width: 80%;
+}
+.product .overflow .drag figure figcaption{
+    padding: 32.5px 20px;
+    position: relative;
+    height: 41.09%;
+    transition: .5s;
+}
+.product .overflow .drag figure figcaption strong{
+    display: block;
+    padding-bottom: 20px;
+    color: #333;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.product .overflow .drag figure figcaption small{
+    color: #333;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.product .overflow .drag figure figcaption div{
+}
+.product .overflow .drag figure figcaption div a{
+    width: 65px; height: 65px;
+    background: #fff;
+    text-align: center;
+    line-height: 1.8;
+    border-radius: 100%;
+    position: absolute;
+    left: 110px; bottom: -33px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #2466c6;
+    opacity: 0;
+    transition: .5s;
+}
+
+
+/*technology & customers*/
+/*공통*/
+.bottom{
+    width: 63%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.bottom > div{
+    width: 500px;
+    padding: 100px 0;
+}
+.bottom > div strong{
+    font-size: 35px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    font-family: 'NanumSquare', sans-serif;
+}
+.bottom > div figure{
+    width: 500px;
+}
+.bottom > div figure > p{
+    width: 500px;
+    height: 230px;
+}
+.bottom > div figure figcaption{}
+.bottom > div figure figcaption p{
+    white-space: pre-line;
+    margin-bottom: 30px;
+    height: 120px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.button{
+    border: 1px solid #999;
+    width: 40px; height: 40px;
+    margin-bottom: 30px;
+    transition: .5s;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.button a{
+    width:100%;
+    text-align: center;
+    padding: 6px;
+    margin-left: 5px;
+}
+.button a span{
+/*    display: none;*/
+    transition: .5s;
+    margin: 0 15px;
+}
+.button:hover a span{
+/*    display: inline-block;*/
+}
+.button:hover{
+    width: 140px;
+}
+
+
+
+/*technology*/
+.bottom1{
+    float: left;
+}
+.bottom1 strong{}
+.bottom1 figure{}
+.bottom1 figure > p{
+    background: url('../img/technology.jpg') center no-repeat;
+}
+.bottom1 figure figcaption{}
+.bottom1 figure figcaption p{}
+.bottom1 figure figcaption div{}
+.bottom1 figure figcaption div a{}
+.bottom1 figure figcaption div a span{}
+
+/*customers*/
+.bottom2{
+    float: right;
+}
+.bottom2 strong{}
+.bottom2 figure{}
+.bottom2 figure > p{
+    background: url('../img/customers.jpg') center no-repeat;
+}
+.bottom2 figure figcaption{}
+.bottom2 figure figcaption p{}
+.bottom2 figure figcaption p small{
+    font-size: 14px;
+    color: #999;
+}
+.bottom2 figure figcaption div{}
+.bottom2 figure figcaption div a{}
+.bottom2 figure figcaption div a span{}
+
+
+/*map*/
+
+
+
+/*------------------footer-------------------*/
+
+footer{
+    width: 100%; height: 90px;
+    padding: 10px 0;
+    text-align: center;
+    color: #999;
+    font-size: 12px;
+    white-space: pre-line;
+}
+
+
+/*quick menu*/
+.quick_menu{
+    width: 120px;
+    background: rgba(0, 0, 0, .75);
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    right: 2%; top: 40%;
+    z-index: 100;
+    border-radius: 10px;
+}
+.quick_menu ul{
+    width: 100%;
+}
+.quick_menu ul li{
+    border-radius: 10px;
+    width: 100%;
+}
+.quick_menu ul li:hover{
+    background: rgba(80, 77, 77, .5);
+}
+.quick_menu ul li:nth-child(1):hover{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.quick_menu ul li:nth-child(4):hover{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.quick_menu ul li:last-child{
+    text-align: center;
+}
+.quick_menu ul li a{
+    width: 100%; height: 100%;
+    padding: 30px 0;
+    border-bottom: 1px solid #626262;
+}
+.quick_menu ul li:last-child a{
+    border: none;
+}
+.quick_menu ul li a figure{
+    width: 50%;
+    margin: 0 auto;
+}
+.quick_menu ul li:last-child a figure p img{
+    width: 40%;
+}
+.quick_menu ul li a figure p img{
+    width: 100%;
+}
+
+.quick_menu ul li a figure figcaption{
+    padding-top: 5px;
+    text-align: center;
+    font-size: 0.938em;
+    color: #fff;
+    font-family: 'Noto Sans KR', sans-serif;
+}

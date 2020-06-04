@@ -1,0 +1,33 @@
+/*html,body,a, ul, p, span, storong, h2, h3, div{
+    margin:0;
+    padding: 0;
+}*/
+ul,li{
+    list-style-type: none;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+span,em,strong,a{
+    display: inline-block;
+}
+/*label, input{
+    display: inline-block;
+}*/
+p,a,h1, h2, h3, h4, h5, h6{
+    transform: skew(-0.001deg);
+}
+
+*{
+    margin:0;
+    padding: 0;
+    font-size: 16px;
+}
+/**{
+    margin:0;padding:0;
+    font-family: '';
+    font-size:16px;
+    color:#95979d;
+    box-sizing:border-box;
+}*/
